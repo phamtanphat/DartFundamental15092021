@@ -1,3 +1,4 @@
+
 void main() {
   // 1 : Kiểu dữ liệu
   // ctrl + / : comment code
@@ -148,14 +149,38 @@ void main() {
   // var a;
   // assert(a != null , "A có giá là null");
 
-  try {
-    int a = 12 ~/ 0;
-    print(a);
-  }on IntegerDivisionByZeroException {
-    print("Lỗi do chia với số 0");
-  } catch (e) {
-    print(e);
-  }finally{
-    print("Kết thúc");
-  }
+  // try {
+  //   int a = 12 ~/ 0;
+  //   print(a);
+  // }on IntegerDivisionByZeroException {
+  //   print("Lỗi do chia với số 0");
+  // } catch (e) {
+  //   print(e);
+  // }finally{
+  //   print("Kết thúc");
+  // }
+
+
+  // var listNumbers = List.generate(100, (index) => index + 1);
+  // Bài tập 1 : cho mảng từ 1 đến 100 xử lý in ra các phần tử là số chẳn
+
+  // for (int i = 0 ; i < listNumbers.length ; i++){
+  //     if (listNumbers[i] % 2 == 0){
+  //       print(listNumbers[i]);
+  //     }
+  // }
+
+  // Bài tập 2 : cho mảng từ 1 đến 100 xử lý in ra các phần tử là số lẻ
+  // for (int i = 0 ; i < listNumbers.length ; i++){
+  //   if (listNumbers[i] % 2 == 1){
+  //     print(listNumbers[i]);
+  //   }
+  // }
+  // Bài tập 3 : cho mảng từ 1 đến 100 xử lý in ra các phần tử là số chia 3 dư 1
+  // for (int i = 0 ; i < listNumbers.length ; i++){
+  //   if (listNumbers[i] % 3 == 1){
+  //     print(listNumbers[i]);
+  //   }
+  // }
+
 }
