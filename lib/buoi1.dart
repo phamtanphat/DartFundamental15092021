@@ -97,27 +97,54 @@ void main() {
   // type casting
 
   // 7 : switch case (Câu điều kiện)
-  int month = 8;
-  switch (month) {
-    case 1:
-    case 2:
-    case 3:
-      print("Quý 1");
-      break;
-    case 4:
-    case 5:
-    case 6:
-      print("Quý 2");
-      break;
-    case 7:
-    case 8:
-    case 9:
-      print("Quý 3");
-      break;
-    case 10:
-    case 11:
-    case 12:
-      print("Quý 4");
-      break;
-  }
+  // int month = 15;
+  // switch (month) {
+  //   case 1:
+  //   case 2:
+  //   case 3:
+  //     print("Quý 1");
+  //     break;
+  //   case 4:
+  //   case 5:
+  //   case 6:
+  //     print("Quý 2");
+  //     break;
+  //   case 7:
+  //   case 8:
+  //   case 9:
+  //     print("Quý 3");
+  //     break;
+  //   case 10:
+  //   case 11:
+  //   case 12:
+  //     print("Quý 4");
+  //     break;
+  //   default :
+  //     print("Không thuộc miền giá trị của Quý");
+  //     break;
+  // }
+
+  // 8 : Mảng List
+  // index : vị trí phần tử
+
+  // List<int> list = [1,2,3,4,5];
+  // list.add(6);
+  // list.removeAt(0);
+  // list[0] = 1;
+  //
+  // print(list);
+
+  // Set<int> setData1 = Set();
+  // setData1.add(1);
+  // setData1.add(1);
+  // setData1.add(1);
+  //
+  // print(setData1.elementAt(0));
+
+  // Map<String,String> map = {"name" : "Nguyễn Văn A"};
+  //
+  // print(map["name"]);
+
+
+
 }
