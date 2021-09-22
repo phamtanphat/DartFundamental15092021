@@ -182,5 +182,69 @@ void main() {
   //     print(listNumbers[i]);
   //   }
   // }
+  // Bài tập 4 : Tính tổng các phần tử trong mảng
+  // Vd có mảng gồm các phần tử [1,3,5,10,15,20] => in ra tổng
+  // Bài tập 5 : Tính tích
+  // Mảng 1 : [1,2,3,4,5]
+  // Mảng 2 : [10,20,30,40,50]
+
+  // In ra kết quả như sau
+  // 10
+  // 20
+  // 30
+  //..
+  // 150
+  // 200
+  // 250
+
+  // List<Map<String , dynamic>> listPerson = [
+  //   {
+  //     "name" : "Nguyễn Văn A",
+  //     "age" : 10
+  //   },
+  //   {
+  //     "name" : "Nguyễn Văn B",
+  //     "age" : 15
+  //   },
+  //   {
+  //     "name" : "Nguyễn Văn C",
+  //     "age" : 5
+  //   }
+  // ];
+  //
+  // for (int i = 0 ; i < listPerson.length ; i++){
+  //   if(listPerson[i]["age"] < 10 ){
+  //     listPerson.removeAt(i);
+  //   }
+  // }
+  //
+  // print(listPerson);
+
+
+  // Bai 6 : Tính tổng số vote
+
+  // var arrayVoters = [
+  //   {"name" : "Mr.A" , "isVoted" : true},
+  //   {"name" : "Mr.B" , "isVoted" : false},
+  //   {"name" : "Mr.C" , "isVoted" : true},
+  //   {"name" : "Mr.D" , "isVoted" : false},
+  //   {"name" : "Mr.E" , "isVoted" : true},
+  // ];
+
+  // kết quả mong muốn là 3
+
+  // Bài 7 : Tính tổng hóa đơn
+
+  var arrayBills = [
+    {"title" : "Gà" , "price" : 200000},
+    {"title" : "Bánh bao" , "price" : 25000},
+    {"title" : "Há cảo" , "price" : 100000},
+    {"title" : "Rau" , "price" : 50000},
+  ];
+
+  // tổng tiền của bill =>
+
+
+
 
 }
