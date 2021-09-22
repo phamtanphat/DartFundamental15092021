@@ -145,6 +145,17 @@ void main() {
   //
   // print(map["name"]);
 
+  // var a;
+  // assert(a != null , "A có giá là null");
 
-
+  try {
+    int a = 12 ~/ 0;
+    print(a);
+  }on IntegerDivisionByZeroException {
+    print("Lỗi do chia với số 0");
+  } catch (e) {
+    print(e);
+  }finally{
+    print("Kết thúc");
+  }
 }
